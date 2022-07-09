@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Catálogo</string>
+    <string name="btn_login_txt">Login</string>
+    <string name="art_nombre">Nombre</string>
+    <string name="art_descripcion">Descripción</string>
+    <string name="art_foto_url">URL de Foto</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="img_desc">foto</string>
+    <string name="add">nuevo</string>
+</resources>
