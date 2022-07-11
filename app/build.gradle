@@ -31,6 +31,10 @@ android {
     viewBinding {
         enabled = true
     }
+
+    configurations {
+        implementation.exclude group: 'org.jetbrains', module: 'annotations'
+    }
 }
 
 dependencies {
@@ -45,9 +49,10 @@ dependencies {
     implementation 'com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1'
 
     //Retrofit
-    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
-    implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.6'
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.12.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.12.0'
 
     // Glide library
     implementation 'com.github.bumptech.glide:glide:4.13.1'

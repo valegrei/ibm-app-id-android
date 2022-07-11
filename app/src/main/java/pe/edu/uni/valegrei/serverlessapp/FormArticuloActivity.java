@@ -30,7 +30,7 @@ public class FormArticuloActivity extends AppCompatActivity {
             articulo = getIntent().getExtras().getParcelable(ARTICULO);
             esNuevo = false;
         }
-        token = "";
+        token = new TokensManager(this).getAccessToken();
 
         if (!esNuevo) {
             setTitle("Modificar Artículo");

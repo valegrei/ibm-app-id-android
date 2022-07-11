@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity implements ArticulosAdapter.
 
         binding.btnNuevo.setOnClickListener(v -> nuevo());
 
-        token = "";
-
+        token = new TokensManager(this).getAccessToken();
+        //token = "";
     }
 
     @Override
