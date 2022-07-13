@@ -3,7 +3,7 @@ Ejemplo de un aplicativo Android que consume una Rest Api y atentificada por IBM
 
 ## Arquitectura
 
-<img src="images/arch.png">
+<img src="images/arch.png" width="800px">
 
 1. El Usuario se autentifica por medio de IBM App ID y obtiene tokens de identificación.
 2. Se llama a la API incluyendo el token de acceso.
@@ -14,17 +14,17 @@ Ejemplo de un aplicativo Android que consume una Rest Api y atentificada por IBM
 
 ### Autentificación
 
-<img src="images/login.png" width="100%">
-<img src="images/app_id_login.png" width="100%">
+<img src="images/login.png" width="400px">
+<img src="images/app_id_login.png" width="400px">
 
 ### Catálogo
 
-<img src="images/main.png" width="100%">
+<img src="images/main.png" width="400px">
 
 ### Nuevo Artículo
 
-<img src="images/new.png" width="100%">
+<img src="images/new.png" width="400px">
 
 ### Modificar Artículo
 
-<img src="images/edit.png" width="100%">
+<img src="images/edit.png" width="400px">
